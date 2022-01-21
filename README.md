@@ -4,7 +4,7 @@ This is my personal note taking plugin.
 
 ## Installation
 
-Place this folder in your `~/.vim/plugin` directory.
+Place this repository in your `~/.vim/pack/<whatever>/start/` directory.
 
 Make sure your shell exports `ZET_DIR` environment variable. This variable must
 point to a path for storing notes.
@@ -69,5 +69,5 @@ case "$1" in
 esac
 ```
 
-This lets me quickly open main note with `zet`. I can also quickly serach
+This lets me quickly open main note with `zet`. I can also quickly search 
 through notes with `zet find <some text>`.
